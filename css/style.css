@@ -351,7 +351,7 @@ body.section-show .section.active{
 =======================================================================*/
 body.section-show .transition-mask{
 	position:absolute;
-	top:260px;
+	top:150px;
 	height:500px;
 	width:500px;
 	left:0;
@@ -381,7 +381,7 @@ body.section-show .transition-mask:before{
 
 @-webkit-keyframes fill2{
 	0%{
-		transform:rotate(45deg);
+		transform:rotate(0deg);
 	}
 	100%{
 		z-index:50;
@@ -394,11 +394,11 @@ body.section-show .transition-mask:before{
 }
 @keyframes fill2{
 	0%{
-		-webkit-transform:rotate(45deg);
-		-moz-transform:rotate(45deg);
-		-ms-transform:rotate(45deg);
-		-o-transform:rotate(45deg);
-		transform:rotate(45deg);
+		-webkit-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-ms-transform:rotate(0eg);
+		-o-transform:rotate(0deg);
+		transform:rotate(0deg);
 	}
 	100%{
 		z-index:50;
@@ -443,7 +443,7 @@ body.section-show .transition-mask:before{
 }
 .front-heading{
 	text-align:center;
-	margin-top:190px;
+	margin-top:75px;
 }
 .front-heading > h2{
 	font-size:55px;
@@ -456,7 +456,7 @@ body.section-show .transition-mask:before{
 	*display:inline;
 	*zoom:1;
 	z-index:10;
-	color:#999;
+	color:#000;
 	font-family: 'Playfair Display', serif;
 	font-style:italic;
 }
@@ -465,13 +465,13 @@ body.section-show .transition-mask:before{
 	width:500px;
 	height:500px;
 	overflow:hidden;
-	background:#F0F0F0;
+	background:#ffffff;
 	position:relative;
 	z-index:15;
 	-webkit-transition:height .5s .3s ease, transform .5s .8s ease;
 	-moz-transition:height .5s .3s ease, transform .5s .8s ease;
 	transition:height .5s .3s ease, transform .5s .8s ease;
-	margin:200px auto;
+	margin:50px auto;
 	margin-bottom:0;
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
@@ -494,13 +494,13 @@ body.section-show .transition-mask:before{
 	margin:auto;
 	width:500px;
 	height:500px;
-	margin-top:-500px;
+	margin-top:-450px;
 	z-index:25;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
 	position:relative;
 }
 
@@ -535,7 +535,7 @@ body.section-show .transition-mask:before{
 	-moz-transition:all .3s ease;
 	transition:all .3s ease;
 	position:relative;
-	color:#999;
+	color:#000;
 	text-align:left;
 	text-transform:uppercase;
 	letter-spacing:3px;
