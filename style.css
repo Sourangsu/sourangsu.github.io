@@ -1,0 +1,91 @@
+body 
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666	
+}
+a:link {
+	text-decoration: none;
+	color: #999999;
+}
+a:visited {
+	text-decoration: none;
+	color: #999999;
+}
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+a:active {
+	text-decoration: none;
+}
+
+
+.projectPicture
+{
+	Z-INDEX: 2;
+	POSITION: absolute;
+	LEFT: 46px;
+	TOP: 135px;
+	opacity: 0.0;
+	moz-opacity: 0.0;
+	visibility: visible;
+}
+
+.backpicture
+{
+	Z-INDEX: 1;
+	POSITION: absolute;
+	LEFT: 0px;
+	TOP: 0px;
+	opacity: 0.0;
+	moz-opacity: 0.0;
+	visibility: visible;
+}
+
+
+#ContentLayer
+{
+	position:absolute; 
+	left:45px; 
+	top:45px; 
+	width:500px; 
+	height:530px; 
+	z-index:1;
+}
+
+.head
+{
+	color:#000000; 
+	font-size:12px; 
+	font-weight:bold
+}
+
+.copyright 
+{
+	font-size: 10px;
+	color: #999999;
+}
+.submenu 
+{
+	font-size: 10px;
+	position:absolute; 
+	left:60px; 	
+	width: 140px;
+	z-index:0;  
+	visibility: hidden;	
+}
+
+.menu
+{
+	font-size: 16px;
+	position:absolute;
+	left:200px; 
+	width:100px; 
+	height:20px; 
+	z-index:1; 	
+	visibility: visible;	
+}
+
