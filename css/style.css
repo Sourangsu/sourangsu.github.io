@@ -466,29 +466,24 @@ body.section-show .transition-mask:before{
 	height:500px;
 	overflow:hidden;
 	background:#ffffff;
-	position:relative;
-	z-index:15;
+	position:center;
+	z-index:150;
 	-webkit-transition:height .5s .3s ease, transform .5s .8s ease;
 	-moz-transition:height .5s .3s ease, transform .5s .8s ease;
 	transition:height .5s .3s ease, transform .5s .8s ease;
 	margin:50px auto;
-	margin-bottom:0;
-	-webkit-transform:rotate(45deg);
-	-moz-transform:rotate(45deg);
-	-ms-transform:rotate(45deg);
-	-o-transform:rotate(45deg);
-	transform:rotate(45deg);
-	border-radius:0;
+	margin-bottom:0px;
 }
+
 .front-person-img > img{
 	max-width:100%;
 	vertical-align:bottom;
-	-webkit-transform:rotate(-45deg) translateY(40px);
-	-moz-transform:rotate(-45deg) translateY(40px);
-	-ms-transform:rotate(-45deg) translateY(40px);
-	-o-transform:rotate(-45deg) translateY(40px);
-	transform:rotate(-45deg) translateY(40px);
+	margin:105px auto;
+	-webkit-transition:height .5s .3s ease, transform .5s .8s ease;
+	-moz-transition:height .5s .3s ease, transform .5s .8s ease;
+	transition:height .5s .3s ease, transform .5s .8s ease;
 }
+
 
 .front-person-links{
 	margin:auto;
