@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sourangsu's Webpage</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.accordion_headings{
+	padding:5px;
+	background:#FFFFFF;
+	border:1px solid #FFFFFF;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.accordion_headings:hover{
+	background:#DDDDDD;
+}
+
+.selected{
+	background:#ECECEC;
+}
+</style>
+
+
+<script type="text/javascript" src="code/accordian-src.js"></script>
+</head>
+<body onload="new Accordian('basic-accordian',5,'selected');">
+<div id="ContentLayer">
+    <br/>
+    <br/>
+    <span class="head">
+    education
+    </span>
+    <br/>
+    <br/>
+    <br/>    
+   	<div id="basic-accordian" ><!--Parent of the Accordion-->    	
+    	<div style="width:44px; float:left">
+			<div id="2020-header" class="accordion_headings x_selected">2020</div>
+            <div id="2019-header" class="accordion_headings">2019</div>
+            <div id="2014-header" class="accordion_headings">2014</div>
+		</div>
+		
+		<div style="float:right; width:430px; margin-top:5px">
+          	<div id="2020-content">
+				<div>
+					<strong>Doctor of Philosophy (Ph.D.) in Electrical Engineering</strong><br/>
+				    University of Utah<br/>
+					<i><b>Dissertation:</b> Tackling Optical Inverse Design Problems with Computational Algorithms. (Proposed) <br/></i>
+					<b>Advisors:</b> Prof. Berardi Sensale-Rodriguez & Prof. Rajesh Menon<br/>
+ 				</div>
+  			</div>
+          	<div id="2019-content">
+				<div>
+					<strong>Master of Science (M.S.) in Electrical Engineering</strong><br/>
+				    University of Utah<br/>
+ 				</div>				
+  			</div>
+          	<div id="2014-content">
+				<div>
+					<strong>Bachleor of technology (B.Tech.) in Electronics and Communication Engineering</strong><br/>
+				    West Bengal University of Technology<br/>
+					<i><b>Dissertation:</b> Study of Electronic and Electromagnetic Properties ofOne-Dimensional Photonic Crystal<br/></i>
+					<b>Advisor:</b> Prof. Arpan Deyasi<br/>
+					<br />
+ 				</div>
+  			</div>
+ 
+		</div>	    
+	</div>
+</div>
+</body>
+</html>
