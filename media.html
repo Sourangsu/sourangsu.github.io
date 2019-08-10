@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sourangsu's Webpage</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.accordion_headings{
+	padding:5px;
+	background:#FFFFFF;
+	border:1px solid #FFFFFF;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.accordion_headings:hover{
+	background:#DDDDDD;
+}
+
+.selected{
+	background:#ECECEC;
+}
+</style>
+
+
+<script type="text/javascript" src="code/accordian-src.js"></script>
+</head>
+<body onload="new Accordian('basic-accordian',5,'selected');">
+<div id="ContentLayer">
+    <br/>
+    <br/>
+    <span class="head">
+    media
+    </span>
+    <br/>
+    <br/>
+    <br/>    
+   	<div id="basic-accordian" ><!--Parent of the Accordion-->    	
+    	<div style="width:44px; float:left">
+			<div id="2019-header" class="accordion_headings x_selected">2019</div>
+            <div id="2018-header" class="accordion_headings">2018</div>
+			<div id="2017-header" class="accordion_headings">2017</div>
+		</div>
+		
+		<div style="float:right; width:430px; margin-top:5px">
+          	<div id="2019-content">
+				<div>
+					<strong>ECE Student wins Best Paper</strong><br/>
+				    <a href="https://www.ece.utah.edu/2019/07/30/ece-student-wins-best-paper/" target="_blank"> https://www.ece.utah.edu/2019/07/30/ece-student-wins-best-paper/</a><br/>
+ 				</div>
+				<br/>
+  			</div>
+          	<div id="2018-content">
+				<div>
+					<strong>Sourangsu Banerji, University of Utah, USA, discusses his work in the next generation of metasurfaces</strong><br/>
+				    <a href="https://www.osa.org/en-us/media_library/searchresultsvideo/?Id=5825454280001" target="_blank">https://www.osa.org/en-us/media_library/searchresultsvideo/?Id=5825454280001</a><br/>
+ 				</div>				
+  			</div>
+          	<div id="2017-content">
+				<div>
+					<strong>New tech may lead to 'Star Wars' style 3D holograms</strong><br/>
+				    <a href="https://www.deccanchronicle.com/technology/in-other-news/210717/new-tech-may-lead-to-star-wars-style-3d-holograms.html" target="_blank">https://www.deccanchronicle.com/technology/in-other-news/210717/new-tech-may-lead-to-star-wars-style-3d-holograms.html</a><br/>
+ 				</div>
+  			</div>
+
+ 
+		</div>	    
+	</div>
+</div>
+</body>
+</html>
