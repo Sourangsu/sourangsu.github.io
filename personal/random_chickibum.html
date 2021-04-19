@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sourangsu's Webpage</title>
+<link href="../style.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+.accordion_headings{
+	padding:5px;
+	background:#FFFFFF;
+	border:1px solid #FFFFFF;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.accordion_headings:hover{
+	background:#DDDDDD;
+}
+
+.selected{
+	background:#ECECEC;
+}
+</style>
+
+
+<script type="text/javascript" src="../code/accordian-src.js"></script>
+</head>
+<body onload="new Accordian('basic-accordian',5,'selected');">
+<div id="ContentLayer">
+    <br/>
+    <br/>
+    <span class="head">
+    random_chickibum
+    </span>
+    <br/>
+    <br/>
+    <br/>    
+   	<div id="basic-accordian" ><!--Parent of the Accordion-->    	
+    	<div style="width:44px; float:left">
+			<div id="2021-header" class="accordion_headings x_selected">2021</div>
+			<div id="2020-header" class="accordion_headings">2020</div>
+            <div id="2019-header" class="accordion_headings">2019</div>
+            <div id="2018-header" class="accordion_headings">2018</div>
+            <div id="2017-header" class="accordion_headings">2017</div>
+			<div id="previous-header" class="accordion_headings">...</div>
+		</div>
+		
+		<div style="float:right; width:430px; margin-top:5px">
+		    <div id="2021-content">
+				<div>
+				
+				</div>
+  			</div>
+          	<div id="2020-content">
+				<div>
+
+ 				</div>
+  			</div>
+          	<div id="2019-content">
+				<div>
+					
+ 				</div>				
+  			</div>
+            <div id="2018-content">
+				<div>
+					
+ 				</div>
+  			</div>
+			<div id="2017-content">
+				<div>
+					
+ 				</div>
+  			</div>
+			<div id="previous-content">
+				<div>
+					
+ 				</div>
+			</div>
+		</div>	    
+	</div>
+</div>
+</body>
+</html>
