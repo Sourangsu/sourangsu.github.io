@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Projects and selected work by Sourangsu Banerji in optical interconnects, flat optics, computational imaging, and integrated photonics.">
+  <title>Projects — Sourangsu Banerji</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <a class="name" href="index.html">Sourangsu Banerji</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">About</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="writing.html">Writing</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Projects</h1>
+
+      <h2>Current and previous work</h2>
+
+      <div class="project-entry compact-entry">
+        <p><b>Irradiant Technologies:</b> Next-generation optical interconnects</p>
+      </div>
+
+      <div class="project-entry compact-entry">
+        <p><b>Momentum Optics:</b> Laser-based manufacturing tool with in-situ metrology for real-time feedback</p>
+      </div>
+
+      <h2>Company derived from my work</h2>
+
+      <div class="project-entry compact-entry">
+        <p><b>Oblate Optics; </b> commercializing extended depth-of-focus flat-lens technology.</p>
+      </div>
+
+      <h2>Selected projects</h2>
+
+      <p class="project-intro">A common theme throughout my career has been reducing the size, weight, power, and cost (SWaP-C) in optical systems. I am interested in how much of the complexity normally carried by the hardware could instead be moved into the design process itself.</p>
+
+      <section id="broadband" class="project-entry">
+        <h3 class="project-title">Broadband flat optics</h3>
+
+        <p>One place I explored this was in flat optics. Conventional imaging systems often rely on multiple refractive elements to correct aberrations and operate over a useful spectral range. Flat optics offered a very different possibility: replacing some of that optical volume with a single, extremely thin patterned surface.</p>
+
+        <p>The difficulty is that making a flat lens work over a broad wavelength range is not straightforward. The phase response changes with wavelength, and improving bandwidth usually introduces tradeoffs in numerical aperture, efficiency, fabrication complexity, and tolerance to manufacturing errors.</p>
+
+        <p>I worked on using inverse design and computational optimization to design multilevel diffractive lenses and related flat optical elements, and then fabricated and experimentally characterized the resulting devices. Over time, that work spanned imaging from the visible and near-infrared through the SWIR and LWIR, along with related work at terahertz frequencies.</p>
+
+        <p>For me, the broader point was not simply that a lens could be made thinner. It was that computation could be used to redistribute complexity: instead of adding more optical elements to the system, we could put more intelligence into the design of a single surface.</p>
+
+        <h4>Selected work</h4>
+        <ul class="publication-list">
+          <!-- Replace each # below with the paper URL you want to use. -->
+          <li><a href="https://opg.optica.org/optica/fulltext.cfm?uri=optica-6-6-805"><em>Imaging with flat optics: metalenses or diffractive lenses?</em></a> — <em>Optica</em>, 2019</li>
+          <li><a href="https://www.pnas.org/doi/10.1073/pnas.1908447116"><em>Broadband lightweight flat lenses for longwave-infrared imaging</em></a> — <em>PNAS</em>, 2019</li>
+        </ul>
+      </section>
+
+      <section id="edof" class="project-entry">
+        <h3 class="project-title">Extreme Depth-of-Focus flat optics</h3>
+
+        <p>The same idea also led to a different question: <b> What if we stopped asking a lens to behave like a conventional lens?</b></p>
+
+        <p>Most imaging systems are designed to produce the sharpest image around a particular focus position. If the object moves far enough away from that plane, the system has to refocus, move the optical element, or otherwise compensate. But, what if instead the optical response itself could be designed so that useful image quality can be maintained over a much larger range of object distances.</p>
+
+        <p>Using computational design, I developed an extreme depth-of-focus flat lens and experimentally demonstrated imaging of objects at widely separated distances without mechanically refocusing the system.</p>
+
+        <p>What I liked about this project was that it pushed the SWaP-C idea beyond simply making the lens thinner. If the optics can tolerate a much larger range of object distances, some of the complexity associated with focusing and mechanical adjustment can potentially disappear from the system altogether.</p>
+
+        <p>That way of thinking has stayed with me: sometimes the best way to simplify an optical system is not to optimize each existing component, but to reconsider what function the optics should perform in the first place. This work later became the basis for the extended depth-of-focus flat-lens technology commercialized by Oblate Optics.</p>
+
+        <h4>Selected work</h4>
+        <ul class="publication-list">
+          <!-- Replace the # below with the paper URL you want to use. -->
+          <li><a href="https://opg.optica.org/optica/fulltext.cfm?uri=optica-7-3-214"><em>Extreme Depth-of-focus Imaging with a flat lens</em></a> — <em>Optica</em>, 2020</li>
+        </ul>
+      </section>
+
+      <section id="ml-photonics" class="project-entry">
+        <h3 class="project-title">Machine learning for integrated photonics</h3>
+
+        <p>I explored the same basic SWaP-C question at a very different physical scale in integrated photonics. Here the problem was not the thickness of a free-space imaging system, but the footprint of the photonic device itself.</p>
+
+        <p>Many conventional photonic components are based on geometries that are intuitive to design and easy to parameterize, but that also constrains how compact the device can become. I worked on using machine learning and computational optimization together with electromagnetic simulation to search a much larger design space. Instead of starting with a familiar device geometry and adjusting a few dimensions, one can allow the algorithm to modify the structure itself.</p>
+
+        <p>I used this approach to design digital-metamaterial photonic components, including power-splitting structures and silicon T-junctions. One of the devices we demonstrated had a footprint of only <strong>1.2 &micro;m &times; 1.2 &micro;m</strong>.</p>
+
+        <p>The part of that work that interested me most was never machine learning by itself. Machine learning was simply another design tool. The larger question was whether computational design could let us achieve the same photonic function with substantially less physical hardware.</p>
+
+        <p>That is the connection I see between this work and the flat-optics projects: in both cases, computation was being used to move complexity away from the final physical system and into the design process.</p>
+
+        <h4>Selected work</h4>
+        <ul class="publication-list">
+          <!-- Replace each # below with the paper URL you want to use. -->
+          <li><a href="https://opg.optica.org/osac/fulltext.cfm?uri=osac-4-2-602"><em>Ultra-compact integrated photonic devices enabled by machine learning and digital metamaterials</em></a> — <em>OSA Continuum</em>, 2021</li>
+          <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S1878778920300818"><em>Machine learning enables design of on-chip integrated silicon T-junctions with footprint of 1.2 &micro;m &times; 1.2 &micro;m</em></a> — <em>Nano Communication Networks</em>, 2020</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>&copy; <span id="year"></span> Sourangsu Banerji</footer>
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>
